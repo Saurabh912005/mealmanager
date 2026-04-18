@@ -28,7 +28,7 @@ Run Frontend
 => npm start
 
 
-https://github.com/dragmaster019/Street-Food-Wala/assets/83837160/b8073bcd-b9fa-4aef-abf3-d5a733257198
+
 
 
 
