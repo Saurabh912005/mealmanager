@@ -4,44 +4,425 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92d25c99-53ef-486e-9fe5-cda2a7f4d978" name="Changes" comment="" />
+    <list default="true" id="92d25c99-53ef-486e-9fe5-cda2a7f4d978" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/AddRestaurants/CreateRestaurantForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/AddRestaurants/Demo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Admin.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/AdminNavbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/AdminSidebar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Category/Category.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Category/CreateCategory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Dashboard/AddRestaurantCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Dashboard/AdminDashboard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Dashboard/RestaurantCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Dashboard/RestaurantDashboard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Details/Details.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Events/EventCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Events/Events.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Food/AddMenuForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Food/MenuItemTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Food/RestaurantsMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Ingredients/CreateIngredientCategory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Ingredients/CreateIngredientForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Ingredients/Ingredients.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Orders/OrderTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/Orders/RestaurantsOrder.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/ReportCard/ReportCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Admin/utils/UploadToCloudnary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Data/Demo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Data/Ingredients.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Data/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Data/restaurents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Data/topMeels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Routers/AdminRouters.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Routers/CustomerRoutes.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/Routers/Routers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Admin/Ingredients/Action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Admin/Ingredients/ActionType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Admin/Ingredients/Reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Admin/Order/ActionType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Admin/Order/restaurants.order.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Admin/Order/restaurants.order.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Admin/Restaurants/ActionType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Admin/Restaurants/Reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Admin/Restaurants/admin.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Authentication/Action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Authentication/ActionType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Authentication/Reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Cart/ActionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Cart/ActionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Cart/Reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Cart/cart.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Menu/ActionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Menu/ActionType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Menu/Reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Menu/menu.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Orders/Action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Orders/ActionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Orders/ActionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Orders/order.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Restaurant/ActionCreateros.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Restaurant/ActionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Restaurant/Reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Customers/Restaurant/restaurant.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/Store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/SuperAdmin/superAdmin.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/SuperAdmin/superAdmin.actionType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/State/SuperAdmin/superAdmin.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/SuperAdmin/RestaurantRequest/RestaurantRequest.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/SuperAdmin/RestaurantRequest/RestaurantRequestTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/SuperAdmin/Restaurants/RestaurantTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/SuperAdmin/Restaurants/SuperAdminRestaurant.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/SuperAdmin/SuperAdmin.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/SuperAdmin/SuperAdminCustomerTable/Customers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/SuperAdmin/SuperAdminCustomerTable/SuperAdminCustomerTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/SuperAdmin/SuperAdminDashboard/SuperAdminDashboard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/SuperAdmin/SuperAdminSideBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/config/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/config/logic.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/Address/AddressCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/Address/NewAddressModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/CartItem/CartItemCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/Login/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/MenuItem/MenuItemCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/MultiItemCarousel/CarouselItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/MultiItemCarousel/MultiItemCarousel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/Navbar/Navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/Order/OrderCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/ProfileNavigation/ProfileNavigation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/Register/Register.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/RestarentCard/Restaurant.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/RestarentCard/RestaurantCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/Search/PopularCuisines.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/Search/Search.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/components/Search/SearchDishCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/Auth/Auth.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/Auth/PasswordChangeSuccess.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/Auth/ResetPasswordForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/Auth/ResetPaswordRequest.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/Cart/Cart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/Cart/totalPay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/Favorite/Favorite.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/Home/HomePage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/Home/HomePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/NotFound/NotFound.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/Orders/Orders.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/PaymentSuccess/PaymentSuccess.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/Profile/CustomerEvents.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/Profile/Notifications.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/Profile/Profile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/Profile/UserProfile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/Restaurant/Restaurant.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/pages/UsersAdresses/UsersAddresses.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/util/CategorizeIngredients.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/customers/util/ValidToOrder.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/theme/DarkTheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_15_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_15_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_15_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_15_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_15_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_15_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_stripe_stripe_java_20_62_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_5_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_api_0_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_impl_0_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_jackson_0_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_jandex_3_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_inject_jakarta_inject_api_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_14_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_14_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_10_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_10_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_24_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_angus_angus_activation_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_angus_jakarta_mail_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_4_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_4_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_4_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_6_0_6_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_orm_hibernate_core_6_2_7_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_8_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_5_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_6_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_6_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_6_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_6_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_6_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zosh_food.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mealmanager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/Exception/CartException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/Exception/CartException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/Exception/CartItemException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/Exception/CartItemException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/Exception/FoodException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/Exception/FoodException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/Exception/OrderException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/Exception/OrderException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/Exception/RestaurantException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/Exception/RestaurantException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/Exception/ReviewException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/Exception/ReviewException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/Exception/UserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/Exception/UserException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/ZoshFoodApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/MealManagerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/config/JwtConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/config/JwtConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/config/JwtProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/config/JwtProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/config/JwtTokenValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/config/JwtTokenValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/AdminMenuItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/AdminMenuItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/AdminOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/AdminOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/AdminRestaurantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/AdminRestaurantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/IngredientsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/IngredientsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/MenuItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/MenuItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/ResetPasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/ResetPasswordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/RestaurantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/RestaurantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/ReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/SupperAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/SupperAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/domain/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/domain/OrderStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/domain/USER_ROLE.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/domain/USER_ROLE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/dto/RestaurantDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/dto/RestaurantDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/ContactInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/ContactInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/Coupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/Coupon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/Events.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/Events.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/IngredientCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/IngredientCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/IngredientsItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/IngredientsItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/PasswordResetToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/PasswordResetToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/PaymentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/PaymentResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/repository/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/repository/AddressRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/repository/CartItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/repository/CartItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/repository/CartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/repository/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/repository/EventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/repository/IngredientsCategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/repository/IngredientsCategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/repository/IngredientsItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/repository/IngredientsItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/repository/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/repository/NotificationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/repository/OrderItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/repository/OrderItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/repository/PasswordResetTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/repository/PasswordResetTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/repository/RestaurantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/repository/RestaurantRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/repository/ReviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/repository/ReviewRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/repository/foodRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/repository/foodRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/request/AddCartItemRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/request/AddCartItemRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/request/CreateFoodRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/request/CreateFoodRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/request/CreateIngredientCategoryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/request/CreateIngredientCategoryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/request/CreateIngredientRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/request/CreateIngredientRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/request/CreateOrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/request/CreateOrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/request/CreateRestaurantRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/request/CreateRestaurantRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/request/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/request/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/request/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/request/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/request/ResetPasswordRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/request/ResetPasswordRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/request/ReviewRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/request/ReviewRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/request/UpdateCartItemRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/request/UpdateCartItemRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/response/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/response/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/response/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/response/AuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/CartItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/CartItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/CartSerive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/CartSerive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/CartServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/CartServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/CategoryServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/CategoryServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/CustomeUserServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/CustomeUserServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/EventServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/EventServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/EventsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/EventsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/FoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/FoodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/FoodServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/FoodServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/IngredientsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/IngredientsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/IngredientsServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/IngredientsServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/NotificationServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/NotificationServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/OrderItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/OrderItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/OrderItemServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/OrderItemServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/OrderServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/OrderServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/PasswordResetTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/PasswordResetTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/PasswordResetTokenServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/PasswordResetTokenServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/PaymentServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/PaymentServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/RestaurantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/RestaurantService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/RestaurantServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/RestaurantServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/ReviewSerive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/ReviewSerive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/ReviewServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/ReviewServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/java/com/zosh/service/UserServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/meal/service/UserServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-spring boot/src/test/java/com/zosh/ZoshFoodApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/test/java/com/meal/MealManagerApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Saurabh912005"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Saurabh912005/mealmanager.git",
+    "accountId": "fb522e72-26a4-48c0-a773-d2fc963725fe"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2h8AcBgaVTZfZ7JRmnQtaUo6spo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/spring and java/zosh_food&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/saurabh/Downloads/mealmanager",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.ZoshFoodApplication">
-    <configuration name="ZoshFoodApplication" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zosh.ZoshFoodApplication" />
-      <module name="zosh-food" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MealManagerApplication">
+    <configuration name="MealManagerApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.meal.MealManagerApplication" />
+      <module name="Meal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zosh.*" />
+          <option name="PATTERN" value="com.meal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,7 +436,7 @@
       </method>
     </configuration>
     <configuration name="All in zosh_food (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zosh_food" />
+      <module name="mealmanager" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
@@ -63,7 +444,7 @@
       </method>
     </configuration>
     <configuration name="All in zosh_food (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zosh_food" />
+      <module name="mealmanager" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
@@ -71,7 +452,7 @@
       </method>
     </configuration>
     <configuration name="All in zosh_food" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zosh_food" />
+      <module name="mealmanager" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">

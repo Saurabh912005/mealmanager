@@ -3,10 +3,29 @@ For frontend Code see Frontend branch
 
 
 want to set up?
+Run Backend
 
-go backend application .properties-> create db->enter db_name->user name-> password also configure slide payment scret key and for email use mail user name and password
+=> open in any ide
 
-go to frontend npm i-> npm start
+=> go to application.properties
+
+for MySql Database configration
+-> change db name
+-> change db password
+
+for payment gatway
+-> give your stripe payment gatway secret key
+
+for sending email
+-> give your email
+-> give your email app password
+
+howw to generate app password for email -> https://youtu.be/T0Op3Qzz6Ms?si=BOON8ubAHx3fTCLT
+
+
+Run Frontend
+=> do npmi
+=> npm start
 
 
 https://github.com/dragmaster019/Street-Food-Wala/assets/83837160/b8073bcd-b9fa-4aef-abf3-d5a733257198
